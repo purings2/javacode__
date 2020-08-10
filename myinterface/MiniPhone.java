@@ -8,14 +8,17 @@ public class MiniPhone extends SmartPhone {
 
 	@Override
 	public boolean receiveSMS() {
-		System.out.println("¹®ÀÚ¿Ó¼õ : " + super.getPhoneNo() );
+		System.out.println("Â¹Â®Ã€ÃšÂ¿Ã“Â¼Ãµ : " + super.getPhoneNo() );
 		return false;
 	}
 	
 	@Override
 	public boolean sendSMS() {
-		System.out.println("¹®ÀÚ°¬¼õ : " + super.getPhoneNo());
+		System.out.println("Â¹Â®Ã€ÃšÂ°Â¬Â¼Ãµ : " + super.getPhoneNo());
 		return false;
 	}
 
+	
+	
+	
 }
